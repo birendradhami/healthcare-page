@@ -1,0 +1,776 @@
+@media screen and (max-width: 1600px) {
+
+}
+
+@media screen and (max-width: 1400px) {
+
+}
+
+@media screen and (max-width: 1200px) {
+
+    /* Healthcare Premium */
+
+    .hlth_prm_sec .nav-pills {
+        display: none;
+    }
+
+    .hlth_prm_sec .tab-content {
+        width: 100%;
+        background: unset;
+    }
+
+    .hlth_prm_sec .tab-content>.tab-pane {
+        display: block;
+    }
+
+    .hlth_prm_sec .lunch_dub_rt {
+        box-shadow: rgba(136,165,191,.48) 6px 2px 16px 0px,rgba(255,255,255,.8) -6px -2px 16px 0px;
+        padding: 20px;
+        border-radius: 20px;
+        margin: 10px;
+        min-height: 520px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .hlth_prm_sec .lunch_dub_ul {
+        margin-top: 15px;
+        gap: 15px;
+    }
+
+    .hlth_prm_sec .lunch_dub_ul li h3 {
+        font-size: 18px;
+        white-space: unset;
+        font-size: 20px;
+        font-weight: 800;
+        padding-left: 28px;
+        white-space: nowrap;
+        margin-bottom: 0;
+    }
+
+    /* Healthcare Cta1 */
+
+    .hlth_cta1_lt:after {
+       display: none;
+    }
+
+    .hlth_srp_cta {
+        padding-bottom: 0;
+    }
+
+    .hlth_cta1_flx {
+        padding: 30px;
+    }
+
+    .hlth_cta1_lt {
+        width: 100%;
+        text-align: center;
+        position: relative;
+    }
+
+    .hlth_cta1_rt {
+        display: none;
+      }
+
+      /* Healthcare feature */
+
+      .hlth_app_fctur .tab-content {
+        padding-top: 40px;
+    }
+    
+    .hlth_app_fctur  .buty_solu_tab {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: column-reverse;
+    }
+    .hlth_app_fctur .buty_tab_lt {
+        width: 100%;
+    }
+
+    .hlth_app_fctur .buty_solu_ul {
+        display: flex;
+        flex-direction: inherit;
+        gap: 20px;
+        margin-top: 20px;
+        flex-wrap: wrap;
+    }
+
+    .hlth_app_fctur .buty_solu_li {
+        flex-wrap: wrap;
+        width: 48%;
+        font-size: 23px;
+    }
+
+
+    .hlth_app_fctur .tab_admn_sc .buty_tab_rt {
+        width: 50%;
+        position: inherit;
+    }
+
+    .hlth_app_fctur .button_main button{
+        display: block !important;
+    }
+
+    /* Healthcare Cta2 */
+
+    .hlth_bnft_cta {
+        padding: 0;
+    }
+
+    .hlth_bnft_flx {
+        padding: 20px;
+    }
+
+    .hlth_cta1_lt, .hlth_bnft_lt {
+        width: 100%;
+        text-align: center;
+    }
+
+    .hlth_cta1_rt, .hlth_bnft_rt {
+        display: none;
+    }
+
+    .hlth_bnft_flx:after, .hlth_bnft_flx::before{
+      display: none;
+    }
+
+    .hlth_cta1_lt h2, .hlth_bnft_lt h2 {
+        font-size: 30px;
+    }
+
+    /* Healthcare Why */
+
+    .hlth_why_chs {
+        padding: 40px 0;
+    }
+
+    .hlth_chs_flx, .hlth_glb_flx {
+        flex-direction: column;
+    }
+
+    .hlth_chs_lt {
+        width: 60%;
+    }
+
+    .hlth_chs_rt {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        margin-top: 30px;
+    }
+
+    .hlth_chs_li {
+        width: 48%;
+        padding: 10px 0 10px 65px;
+    }
+
+    .hlth_chs_li::after {
+        top: 10px;
+    }
+
+    /* Healthcare Why */
+
+    .hlth_chs_flx, .hlth_glb_flx {
+        flex-direction: column;
+    }
+
+    .hlth_glb_lt.sb {
+        width: 100%;
+        text-align: center;
+    }
+
+    .hlth_glb_lt {
+        margin-bottom: 30px;
+
+    }
+
+    .hlth_glb_rt {
+        width: 100%;
+    }
+
+    .hlth_glb_li {
+        width: 49%;
+        min-height: unset;
+    }
+
+    /* Healthcare Excel */
+
+    .app_excl_li {
+        background: transparent linear-gradient(
+            180deg,
+            rgba(53, 137, 65, 0.9752275910364145) 10%,
+            rgba(76, 197, 94, 1) 90%
+          ) 0% 0% no-repeat padding-box;
+        border: 1px solid #3a9948;
+        text-align: center;
+    }
+
+    .app_excl_li span, .app_excl_li h3, .app_excl_li p {
+        color: #fff;
+    }
+
+    li.app_excl_li::after{
+        display: none;
+    }
+
+    /* Healthcare Process */
+
+    .hlth_procs_sec .buty_salon_mn {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        gap: 20px;
+        margin-top: 40px;
+    }
+
+    .hlth_procs_sec .buty_saln_mn {
+        min-height: 345px;
+        margin-top: 0;
+        width: 48.7%;
+        gap: 10px;
+    }
+
+    .hlth_procs_sec .buty_saln_mn {
+        flex-direction: column;
+        border: 1px solid #3a9948;
+        padding: 20px;
+        border-radius: 10px;
+        margin: 0 5px 40px 0;
+        min-height: 380px;
+        display: flex !important;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .hlth_procs_sec .buty_saln_mn:nth-child(even) {
+        flex-direction: column;
+    }
+
+    .hlth_procs_sec .buty_saln_mn:nth-child(even) .buty_saln_ul {
+        max-width: unset;
+        margin-left: 0;
+    }
+
+    .hlth_procs_sec .buty_saln_lt {
+        width: 100%;
+        text-align: left;
+        position: relative;
+    }
+
+    .hlth_procs_sec .buty_saln_rt {
+        width: 100%;
+    }
+
+    .hlth_procs_sec .buty_saln_mn::before, .hlth_procs_sec  .buty_saln_lt::after{
+        display: none;
+    }
+
+    .hlth_procs_sec .slick-dots {
+        position: absolute;
+        bottom: -101px;
+        
+    }
+
+    .hlth_procs_sec h3 {
+        font-size: 18px !important;
+    }
+
+    
+  
+}
+
+@media screen and (max-width: 992px) {
+
+    /* Healthcare Banner */
+
+    .nv_spc {
+        padding-top: 100px;
+    }
+
+    .hlth_bnr {
+        background: unset;
+        height: unset;
+    }
+
+    .hlth_flx {
+        padding-top: 0;
+    }
+
+    .hlth_flx_lt, .hlth_flx_rt, .hlth_prm_rt {
+        width: 100%;
+        text-align: center;
+    }
+
+    .mn_hd h1 {
+        font-size: 30px;
+        
+    }
+
+    .mn_hd p {
+        margin: 10px 0 20px;
+        font-size: 18px;
+        line-height: 25px;
+    }
+
+    .hlth_flx_lt:after, .hlth_flx_lt:before{
+        display: none;
+    }
+
+    .mn_hd h2 {
+        text-align: center;
+        width: 100%;
+    }
+
+    .hlth_flx_lt .trstd_lst {
+        justify-content: center;
+    }
+
+    .hlth_flx_rt {
+        margin-top: 30px;
+    }
+
+    .hlth_bnr:after, .hlth_bnr:before {
+       display: none;
+    }
+
+    /* Healthcare Counter */
+
+    .hlth_cuntr {
+        padding-top: 125px;
+    }
+
+    .hlth_cuntr_lst {
+        padding: 10px;
+    }
+
+    .hlth_cuntr_lst {
+        display: flex;
+        justify-content: start;
+        padding: 20px;
+        gap: 30px;
+        background: #fff 0% 0% no-repeat padding-box;
+        box-shadow: -4px 15px 36px rgba(0,0,0,.05);
+        margin-top: 20px;
+        margin-top: -106px;
+        border-radius: 10px;
+    }
+
+    .hlth_cuntr_li {
+        flex-direction: column;
+        gap: 0;
+    }
+
+    .hlth_cuntr_li h3 {
+        font-size: 30px;
+    }
+
+    /* Healthcare Premium */
+
+    .alsc {
+        padding: 40px 0 10px;
+    }
+
+    .hlth_prm_sec{
+        margin-bottom: 25px;
+    }
+    .sb h2 {
+        font-size: 35px;
+    }
+
+    .mh p, .sb p {
+        font-size: 16px;
+        line-height: normal;
+    }
+
+    .hlth_prm_sec .tab-content {
+        padding: 30px 0 40px 0;
+    }
+
+    .hlth_prm_sec .lunch_dub_rt {
+        min-height: 360px;
+    }
+
+    .hlth_prm_sec .lunch_dub_rt h2 {
+        font-size: 24px;
+    }
+
+    .hlth_prm_sec .lunch_dub_rt h2 {
+        font-size: 30px;
+        color: #141324;
+        font-weight: 800;
+    }
+
+    .hlth_prm_sec .lunch_dub_ul li h3 {
+        font-size: 16px;
+    }
+
+    .hlth_prm_sec .slick-next:before,
+  .hlth_prm_sec .slick-prev:before {
+    color: #000;
+    font-size: 21px;
+    background: #fff;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    animation: unset;
+    z-index: 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #242424;
+    opacity: 1;
+  }
+
+  .hlth_prm_sec .slick-prev {
+    left: 43%;
+    top: unset;
+    bottom: -55px;
+    z-index: 1;
+  }
+
+  .hlth_prm_sec .slick-next {
+    left: 53%;
+    top: unset;
+    bottom: -55px;
+    z-index: 1;
+  }
+
+  .hlth_prm_sec .slick-prev,.hlth_prm_sec .slick-next {
+    display: none !important;
+  }
+
+  .slick-dots li button:before {
+    margin-top: 10px;
+    font-family: 'slick';
+    font-size: 16px !important;
+    line-height: 20px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 20px;
+    height: 20px;
+    content: '•';
+    text-align: center;
+    opacity: .25;
+    color: #3a9948 !important;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+/* Healthcare Pharmacy */
+
+.hlth_prm_flx {
+    min-height: unset;
+    margin-top: 0;
+}
+
+.hlth_prm_lt {
+    width: 50%;
+    text-align: center;
+    margin: auto;
+}
+
+.hlth_prm_rt::after {
+    display: none;
+}
+
+/* Healthcare Cta1 */
+
+
+
+  .alsc {
+    padding: 40px 0 10px;
+}
+
+.hlth_cta1_lt h2, .hlth_bnft_lt h2 {
+    font-size: 30px;
+}
+
+.hlth_cta1_lt p {
+    margin: 10px 0 10px 0;
+}
+
+/* Healthcare Feature */
+
+.hlth_app_fctur .tab_admn_sc .nav-link {
+    padding: 10px;
+}
+
+.hlth_app_fctur .tab_admn_sc .nav-link p {
+    font-size: 15px;
+}
+
+.hlth_app_fctur .buty_solu_li {
+    font-size: 22px;
+}
+
+.hlth_app_fctur .buty_solu_cnt {
+    margin-top: 0;
+}
+
+/* Healthcare Why */
+
+.hlth_why_chs {
+    padding: 40px 0;
+}
+
+.hlth_glb_li {
+    min-height: auto;
+}
+
+.hlth_glb_li h3 {
+    font-size: 40px;
+    margin-bottom: 0;
+}
+
+.hlth_glb_li p {
+    font-size: 18px;
+    margin-bottom: 0;
+
+}
+
+/* Healthcare Excel */
+
+.app_excl_hlth {
+    padding-top: 40px;
+}
+
+.app_excl_flx {
+    margin: 40px 0;
+    padding-left: 0%;
+}
+
+.app_excl_li span {
+    font-size: 30px;
+    margin-bottom: 5px;
+}
+
+.app_excl_li h3 {
+    font-size: 22px;
+}
+
+
+
+}
+
+@media (min-width: 768px) and (max-width: 1200px){
+.hlth_app_fctur .solu_spn_bty {
+    display: none;
+}
+
+.buty_solu_li {
+    text-align: center;
+    justify-content: center !important;
+}
+
+.buty_solu_cnt {
+    display: block !important;
+}
+
+}
+@media screen and (max-width: 768px) {
+
+}
+
+@media screen and (max-width: 600px) {
+
+}
+
+@media screen and (max-width: 425px) {
+
+    /* Healthcare Banner */
+
+    .mn_hd h1 {
+        font-size: 26px;
+    }
+
+    .mn_hd p {
+        font-size: 16px;
+    }
+
+    /* .hlth_bnr .button_main button a {
+        font-size: 18px;
+      } */
+
+      /* Healthcare Counter */
+
+      .hlth_cuntr_lst {
+        gap: 20px;
+    }
+
+    .hlth_cuntr_lst {
+        flex-wrap: wrap;
+    }
+
+    .hlth_cuntr_li {
+        width: 40%;
+        text-align: center;
+    }
+
+    .hlth_cuntr_li h3 {
+        font-size: 30px;
+        margin-bottom: 0;
+    }
+
+    .buty_year_li p {
+        text-align: center;
+    }
+
+    .hlth_cuntr_li p {
+        font-size: 16px;
+    }
+
+    .blk_span {
+        display: inline;
+    }
+
+    /* Healthcare Premium */
+
+    .sb h2, .home_abt_cta3 h3, .home_abt_cta2 .sb h2 {
+        font-size: 24px;
+        line-height: normal;
+    }
+
+    .hlth_prm_sec .lunch_dub_ul li h3 {
+        font-size: 18px;
+        white-space: unset;
+    }
+
+    .hlth_prm_sec .lunch_dub_rt {
+        min-height: 570px;
+        text-align: center;
+    }
+
+    .hlth_prm_sec .lunch_dub_rt h2 {
+        font-size: 22px;
+        color: #141324;
+        font-weight: 800;
+    }
+
+    .hlth_prm_sec .lunch_dub_ul {
+        gap: 10px;
+        text-align: center;
+    }
+
+    .hlth_prm_sec .lunch_dub_ul li:after{
+        display: none;
+    }
+
+    .hlth_prm_sec .lunch_dub_ul li h3 {
+        font-size: 16px;
+        padding-left: 0;
+    }
+
+    /* Healthcare Pharmacy */
+
+    .hlth_prm_rt::after{
+        display: none;
+    }
+
+    /* Healtcare Cta1 */
+
+    .hlth_pnt_lt h2, .hlth_cta1_lt h2, .hlth_bnft_lt h2 {
+        font-size: 22px;
+        line-height: 32px;
+    }
+
+    /* Healthcare Feature */
+
+    .hlth_app_fctur .tab_admn_sc .nav {
+        gap: 10px;
+    }
+
+    .app_excl_li, .hlth_app_fctur .tab_admn_sc .nav-link {
+        width: 100%;
+    }
+
+    .hlth_app_fctur .tab_admn_sc .nav-link {
+        padding: 15px;
+    }
+
+    .hlth_app_fctur .buty_solu_li {
+        padding: 10px;
+        font-size: 16px;
+        width: 100%;
+    }
+
+    .hlth_app_fctur .solu_spn_bty {
+        width: 22px;
+        height: 22px;
+        padding: 6px;
+    }
+
+    .hlth_app_fctur .tab_admn_sc .buty_tab_rt {
+        width: 100%;
+    }
+
+    /* Healthcare Why */
+
+    .hlth_chs_lt {
+        width: 100%;
+    }
+
+    .hlth_chs_li {
+        width: 100%;
+    }
+
+    .hlth_chs_li {
+        margin-bottom: 10px;
+    }
+
+    .hlth_chs_li h3 {
+        font-size: 18px;
+    }
+
+    .hlth_chs_li::after {
+        width: 25px;
+        height: 25px;
+    }
+
+    /* Healthcare Why */
+
+    .hlth_glb_li {
+        width: 100%;
+    }
+
+    .hlth_glb_li h3 {
+        font-size: 30px;
+    }
+
+    /* Healthcare Excel */
+
+    .app_excl_li span {
+        font-size: 24px;
+    }
+
+    .app_excl_li h3 {
+        font-size: 20px;
+    }
+
+
+    /* Healthcare Cta3 */
+
+    .cta3  .button_main button a {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: var(--text-color-white);
+        text-decoration: none;
+        margin-right: 50px;
+        transition: all 0.5s;
+        font-weight: 400;
+        font-size: 1rem;
+        color: #000;
+    }
+
+
+
+}
+
+@media screen and (max-width: 320px) {
+  
+}

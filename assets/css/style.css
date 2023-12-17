@@ -1,0 +1,2117 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: "Cabin", sans-serif;
+    /* overflow: unset !important; */
+
+}
+
+body {
+  color: #444;
+  background: #fff;
+  font-weight: 300;
+  font-family: "Cabin", sans-serif;
+  height: 1px !important;
+}
+
+ul,
+li,
+ol {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+:root {
+  --primary-color: #3a9948;
+  --secondry-color: #3a9948;
+  --linear-gradient: linear-gradient(
+    180deg,
+    rgba(53, 137, 65, 0.9752275910364145) 10%,
+    rgba(76, 197, 94, 1) 90%
+  );
+
+  --text-color-white: #fafffa;
+  --text-color-white-hover: #d8dadb;
+
+  --text-color-dark: #161616;
+  --text-color-grey: #808285;
+
+  --primary-font: "Cabin", sans-serif;
+}
+
+/* Global CSS */
+
+.healthcare_main {
+  overflow-x: unset;
+}
+
+section{
+  position: relative;
+}
+
+/* Healthcare Banner */
+
+.nv_spc {
+  padding-top: 130px;
+}
+
+.hlth_bnr {
+  background: url("../img/hlth_bnr_bg.png") no-repeat;
+  background-repeat: no-repeat;
+  height: 100%;
+  height: 691px;
+  background-size: cover;
+  background-position: bottom;
+  overflow: hidden;
+}
+.hlth_bnr:before {
+  left: auto;
+  right: -18px;
+  top: auto;
+  bottom: 75px;
+  transform: rotate(180deg);
+}
+
+.hlth_bnr:after, .hlth_bnr:before {
+  position: absolute;
+  content: "";
+  background: url("../img/hlth_bnr_bfor.png");
+  width: 100px;
+  height: 190px;
+  left: -27px;
+  top: 20%;
+}
+
+.fix_container {
+  max-width: 1170px;
+  margin: 0 auto;
+  width: 90%;
+}
+
+.hlth_flx {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding-top: 30px;
+}
+
+.hlth_flx_lt {
+  width: 50%;
+  position: relative;
+}
+
+.hlth_flx_lt:before {
+  bottom: auto !important;
+  left: auto !important;
+  top: 5%;
+  right: 0;
+}
+
+.hlth_flx_lt:after, .hlth_flx_lt:before {
+  position: absolute;
+  content: "";
+  background: url("../img/hlth_bnr_aftr.png") no-repeat;
+  width: 67px;
+  height: 22px;
+  bottom: 22%;
+  left: 56%;
+  background-size: contain;
+}
+
+.mn_hd h1 {
+  font-size: 50px;
+}
+
+.mn_hd h1 {
+  font-size: 50px;
+  font-weight: bold;
+  line-height: normal;
+}
+
+.blk_span {
+  display: block;
+}
+
+.mn_hd p {
+  font-size: 20px;
+  font-weight: 400;
+  line-height: normal;
+  color: #222;
+  margin: 15px 0 30px;
+}
+
+.hlth_wrp .trsted_mn h2 {
+  font-size: 22px;
+  font-weight: 800;
+}
+
+.mn_hd h2 {
+  font-size: 22px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 24px;
+  text-align: left;
+  margin: 15px 0 0;
+  width: 70%;
+}
+
+.hlth_flx_lt .trstd_lst {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 30px;
+  margin-top: 20px;
+  padding-left: 0;
+}
+
+img {
+  max-width: 100%;
+  height: auto !important;
+  width: auto;
+  object-fit: contain;
+}
+
+.hlth_flx_rt {
+  width: 50%;
+}
+
+/*  */
+
+.hlth_bnr .button_main button {
+  margin-bottom: 20px;
+}
+
+.hlth_bnr .button_main button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 55px;
+  background: rgb(53, 137, 65);
+  background: linear-gradient(
+    67deg,
+    rgba(53, 137, 65, 0.9752275910364145) 10%,
+    rgba(76, 197, 94, 1) 90%
+  );
+  color: #fff;
+  font-family: var(--primary-font);
+  padding: 0px 8px 0px 20px;
+  border-radius: 50px;
+  border-style: none;
+  font-size: 1.375rem;
+  font-weight: 500;
+  position: relative;
+  display: inline-block !important;
+}
+
+.hlth_bnr .button_main button .wrap {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--text-color-white);
+  text-decoration: none;
+  margin-right: 50px;
+  transition: all 0.5s;
+  font-weight: 400;
+  font-size: 1.25rem;
+}
+
+.hlth_bnr .button_main button a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--text-color-white);
+  text-decoration: none;
+  margin-right: 50px;
+  transition: all 0.5s;
+  font-weight: 400;
+  font-size: 1.25rem;
+}
+
+.hlth_bnr .button_main button .wrap i {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 42px;
+  width: 42px;
+  font-size: 1.5rem;
+  margin-left: 10px;
+  border-radius: 100%;
+  background: var(--text-color-white);
+  color: var(--text-color-dark);
+  position: absolute;
+  right: 5px;
+  top: 50%;
+  transform: translate(0, -50%);
+  transition: all 0.5s;
+}
+
+.hlth_bnr .button_main button a i {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 42px;
+  width: 42px;
+  font-size: 1.5rem;
+  margin-left: 10px;
+  border-radius: 100%;
+  background: var(--text-color-white);
+  color: var(--text-color-dark);
+  position: absolute;
+  right: 5px;
+  top: 50%;
+  transform: translate(0, -50%);
+  transition: all 0.5s;
+}
+
+.hlth_bnr .button_main button:hover {
+  background: #fff;
+  color: var(--text-color-dark);
+  padding: 0px 20px 0px 0px;
+  box-shadow: 1px 0px 10px rgba(0, 0, 0, 0.2);
+}
+
+.hlth_bnr .button_main .shadow_none:hover {
+  box-shadow: none;
+}
+
+.hlth_bnr .button_main button:hover .wrap {
+  margin-right: 10px;
+  margin-left: 60px;
+}
+
+.hlth_bnr .button_main button:hover a {
+  margin-right: 10px;
+  margin-left: 60px;
+}
+
+.hlth_bnr .button_main button:hover .quote_text {
+  color: var(--text-color-dark);
+}
+
+.hlth_bnr .button_main button:hover .arrow_right {
+  margin-right: 5px;
+}
+
+.hlth_bnr .button_main button:hover .arrow_right i {
+  --icon-width: 50px;
+  right: calc(100% - var(--icon-width));
+  background: rgb(53, 137, 65);
+  background: linear-gradient(
+    67deg,
+    rgba(53, 137, 65, 0.9752275910364145) 10%,
+    rgba(76, 197, 94, 1) 90%
+  );
+  /* color: var(--text-color-white); */
+}
+
+.hlth_bnr .button_main button .s0 {
+  fill: #000000;
+}
+
+.hlth_bnr .button_main button:hover .s0 {
+  fill: #ffffff;
+}
+
+/* Healthcare Counter */
+
+.hlth_cuntr_lst {
+  display: flex;
+  justify-content: start;
+  padding: 20px;
+  gap: 30px;
+  background: #fff 0% 0% no-repeat padding-box;
+  box-shadow: -4px 15px 36px rgba(0,0,0,.05);
+  margin-top: 20px;
+  margin-top: -106px;
+  border-radius: 10px;
+}
+
+.hlth_cuntr_li {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 15px;
+  width: 25%;
+  flex-wrap: wrap;
+}
+
+.hlth_cuntr_li h3 {
+  font-size: 52px;
+  font-weight: 800;
+}
+
+.hlth_cuntr_li p {
+  font-size: 16px;
+}
+
+.blk_span {
+  display: block;
+}
+
+/* Healthcare Premium */
+
+.alsc {
+  padding: 60px 0 20px;
+}
+
+.sb h2 {
+  font-size: 48px;
+  line-height: 1.3;
+  font-weight: 700;
+}
+
+.sb p {
+  color: #383838;
+  font-size: 20px;
+  line-height: 1.5;
+  font-weight: 400;
+  margin-top: 8px !important;
+}
+
+.hlth_prm_flx {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-top: 30px;
+  width: 95%;
+  margin-left: auto;
+  min-height: 550px;
+  position: relative;
+}
+
+.hlth_prm_sec .nav-pills {
+  width: 45%;
+  position: relative;
+  padding: 0px 20px;
+}
+
+.hlth_prm_sec .nav-pills .nav-link.active, .hlth_prm_sec .nav-pills .nav-link {
+  color: var(--primary-color);
+  background-color: unset !important;
+  font-size: 20px;
+  font-weight: 700;
+  text-align: left;
+  padding: 0;
+  margin-bottom: 45px;
+  position: relative;
+}
+
+.hlth_prm_sec .nav-pills .nav-link {
+  color: #141324;
+  position: relative;
+  border: 0;
+  border: unset !important;
+  display: flex;
+  align-items: center;
+}
+
+.nav-pills .nav-link {
+  border-radius: .25rem;
+}
+
+.hlth_prm_sec .nav-pills .nav-link.active:before, .hlth_prm_sec .nav-pills .nav-link:hover:before, .hlth_prm_sec .nav-pills .nav-link.hovercolor:before {
+  position: absolute;
+  content: "";
+  background: transparent var(--linear-gradient) 0% 0% no-repeat padding-box;
+  height: 68px;
+  width: 4px;
+  top: 23px;
+  bottom: 0;
+  border-radius: 2px;
+  left: 10px;
+  z-index: 9;
+}
+
+.hlth_prm_sec .nav-pills .nav-link.active figure, .hlth_prm_sec .nav-pills .nav-link.hovercolor figure {
+  background: transparent var(--linear-gradient) 0% 0% no-repeat padding-box;
+}
+
+.hlth_prm_sec .nav-link figure {
+  background: #e6eff5;
+  width: 45px;
+  height: 45px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  position: relative;
+  z-index: 9;
+  left: -10px;
+  margin: 0;
+}
+
+.hlth_prm_sec .nav-pills .nav-link.active img, .hlth_prm_sec .nav-pills .nav-link.hovercolor img {
+  filter: brightness(0) invert(1);
+}
+
+.hlth_prm_sec .nav-pills .nav-link:last-child {
+  margin-bottom: 0;
+}
+
+ .hlth_prm_sec .nav-pills .nav-link:last-child:before {
+ display: none;
+}
+
+
+.hlth_prm_sec .nav-pills:after {
+  position: absolute;
+  content: "";
+  background: #ebf2f5;
+  width: 3px;
+  height: 78%;
+  left: 31px;
+  z-index: 0;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+}
+
+.hlth_prm_sec .tab-content {
+  width: 55%;
+  padding-top: 0;
+  background: #f1f4fb;
+  border-radius: 22px;
+  padding: 50px 40px;
+}
+
+.tab-content>.tab-pane {
+  display: none;
+}
+
+.hlth_prm_sec .lunch_dub_rt h2 {
+  font-size: 30px;
+  color: #141324;
+  font-weight: 800;
+}
+
+.sb p {
+  color: #383838;
+  font-size: 20px;
+  line-height: 1.5;
+  font-weight: 400;
+  margin-top: 8px !important;
+}
+
+
+.hlth_prm_sec .lunch_dub_ul {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  gap: 25px;
+  margin-top: 30px;
+  padding-left: 0%;
+}
+
+.hlth_prm_sec .lunch_dub_ul li {
+  position: relative;
+  width: 100%;
+}
+
+.hlth_prm_sec .lunch_dub_ul li h3 {
+  font-size: 20px;
+  font-weight: 800;
+  padding-left: 28px;
+  white-space: nowrap;
+}
+
+.hlth_prm_sec .lunch_dub_ul li:after {
+  position: absolute;
+  content: "";
+  background: transparent var(--linear-gradient) 0% 0% no-repeat padding-box;
+  width: 14px;
+  height: 14px;
+  border-radius: 50%;
+  left: 0;
+  top: 5px;
+}
+
+
+/*   Healthcare Pharmacy   */
+
+.hlth_prm_flx {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-top: 30px;
+  width: 95%;
+  margin-left: auto;
+  min-height: 550px;
+  position: relative;
+}
+
+.hlth_prm_lt {
+  width: 35%;
+}
+
+.hlth_prm_rt {
+  width: 55%;
+  position: relative;
+}
+
+.hlth_prm_rt p {
+  margin: 30px 0 !important;
+}
+
+.hlth_prm_rt::after {
+  content: "";
+  position: absolute;
+  left: -98px;
+  top: -66px;
+  width: 30px;
+  width: 630px;
+  height: 160px;
+  background: url("../img/Cure-Watermark.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  z-index: -1;
+}
+
+.hlth_prmcy_app .button_main button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 55px;
+  background: rgb(53, 137, 65);
+  background: linear-gradient(
+    67deg,
+    rgba(53, 137, 65, 0.9752275910364145) 10%,
+    rgba(76, 197, 94, 1) 90%
+  );
+  color: #fff;
+  font-family: var(--primary-font);
+  padding: 0px 8px 0px 20px;
+  border-radius: 50px;
+  border-style: none;
+  font-size: 1.375rem;
+  font-weight: 500;
+  position: relative;
+  display: inline-block !important;
+}
+
+.hlth_prmcy_app .button_main button .wrap {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--text-color-white);
+  text-decoration: none;
+  margin-right: 50px;
+  transition: all 0.5s;
+  font-weight: 400;
+  font-size: 1.25rem;
+}
+
+.hlth_prmcy_app .button_main button a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--text-color-white);
+  text-decoration: none;
+  margin-right: 50px;
+  transition: all 0.5s;
+  font-weight: 400;
+  font-size: 1.25rem;
+}
+
+.hlth_prmcy_app .button_main button .wrap i {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 42px;
+  width: 42px;
+  font-size: 1.5rem;
+  margin-left: 10px;
+  border-radius: 100%;
+  background: var(--text-color-white);
+  color: var(--text-color-dark);
+  position: absolute;
+  right: 5px;
+  top: 50%;
+  transform: translate(0, -50%);
+  transition: all 0.5s;
+}
+
+.hlth_prmcy_app .button_main button a i {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 42px;
+  width: 42px;
+  font-size: 1.5rem;
+  margin-left: 10px;
+  border-radius: 100%;
+  background: var(--text-color-white);
+  color: var(--text-color-dark);
+  position: absolute;
+  right: 5px;
+  top: 50%;
+  transform: translate(0, -50%);
+  transition: all 0.5s;
+}
+
+.hlth_prmcy_app .button_main button:hover {
+  background: #fff;
+  color: var(--text-color-dark);
+  padding: 0px 20px 0px 0px;
+  box-shadow: 1px 0px 10px rgba(0, 0, 0, 0.2);
+}
+
+.hlth_prmcy_app .button_main .shadow_none:hover {
+  box-shadow: none;
+}
+
+.hlth_prmcy_app .button_main button:hover .wrap {
+  margin-right: 10px;
+  margin-left: 60px;
+}
+
+.hlth_prmcy_app .button_main button:hover a {
+  margin-right: 10px;
+  margin-left: 60px;
+}
+
+.hlth_prmcy_app .button_main button:hover .quote_text {
+  color: var(--text-color-dark);
+}
+
+.hlth_prmcy_app .button_main button:hover .arrow_right {
+  margin-right: 5px;
+}
+
+.hlth_prmcy_app .button_main button:hover .arrow_right i {
+  --icon-width: 50px;
+  right: calc(100% - var(--icon-width));
+  background: rgb(53, 137, 65);
+  background: linear-gradient(
+    67deg,
+    rgba(53, 137, 65, 0.9752275910364145) 10%,
+    rgba(76, 197, 94, 1) 90%
+  );
+  /* color: var(--text-color-white); */
+}
+
+.hlth_prmcy_app .button_main button .s0 {
+  fill: #000000;
+}
+
+.hlth_prmcy_app .button_main button:hover .s0 {
+  fill: #ffffff;
+}
+
+/* Healthcare Cta1 */
+
+.hlth_cta1_flx {
+  background: var(--primary-color);
+  border-radius: 24px;
+  padding: 50px 70px 40px 70px;
+  display: flex;
+  align-items: center;
+}
+
+.hlth_cta1_lt {
+  width: 74%;
+  position: relative;
+}
+
+.hlth_cta1_lt h2 {
+  font-size: 36px;
+  font-weight: bold;
+  line-height: 42px;
+}
+
+.hlth_cta1_lt p {
+  margin: 15px 0 38px 0;
+}
+
+.hlth_cta1_lt:after {
+  background: url("../img/hlth_cta1_bg.png") no-repeat;
+  position: absolute;
+  content: "";
+  width: 130px;
+  height: 120px;
+  background-size: contain;
+  right: 20%;
+  bottom: -30px;
+}
+
+.hlth_cta1_rt {
+  width: 30%;
+}
+
+.hlth_cta1_rt figure {
+  position: absolute;
+  width: 248px;
+  height: 450px;
+  bottom: 0;
+  top: 21px;
+}
+
+
+
+
+
+/*  */
+
+.hlth_cta1_flx .button_main button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 55px;
+  background: rgb(53, 137, 65);
+  background: linear-gradient(
+    67deg,
+    rgba(53, 137, 65, 0.9752275910364145) 10%,
+    rgba(76, 197, 94, 1) 90%
+  );
+  color: #fff;
+  font-family: var(--primary-font);
+  padding: 0px 8px 0px 20px;
+  border-radius: 50px;
+  border-style: none;
+  font-size: 1.375rem;
+  font-weight: 500;
+  position: relative;
+  display: inline-block !important;
+}
+
+.hlth_cta1_flx .button_main button .wrap {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--text-color-white);
+  text-decoration: none;
+  margin-right: 50px;
+  transition: all 0.5s;
+  font-weight: 400;
+  font-size: 1.25rem;
+}
+
+.hlth_cta1_flx .button_main button a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--text-color-white);
+  text-decoration: none;
+  margin-right: 50px;
+  transition: all 0.5s;
+  font-weight: 400;
+  font-size: 1.25rem;
+}
+
+.hlth_cta1_flx .button_main button .wrap i {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 42px;
+  width: 42px;
+  font-size: 1.5rem;
+  margin-left: 10px;
+  border-radius: 100%;
+  background: var(--text-color-white);
+  color: var(--text-color-dark);
+  position: absolute;
+  right: 5px;
+  top: 50%;
+  transform: translate(0, -50%);
+  transition: all 0.5s;
+}
+
+.hlth_cta1_flx .button_main button a i {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 42px;
+  width: 42px;
+  font-size: 1.5rem;
+  margin-left: 10px;
+  border-radius: 100%;
+  background: var(--text-color-white);
+  color: var(--text-color-dark);
+  position: absolute;
+  right: 5px;
+  top: 50%;
+  transform: translate(0, -50%);
+  transition: all 0.5s;
+}
+
+.hlth_cta1_flx .button_main button:hover {
+  background: #fff;
+  color: var(--text-color-dark);
+  padding: 0px 20px 0px 0px;
+  box-shadow: 1px 0px 10px rgba(0, 0, 0, 0.2);
+}
+
+.hlth_cta1_flx .button_main .shadow_none:hover {
+  box-shadow: none;
+}
+
+.hlth_cta1_flx .button_main button:hover .wrap {
+  margin-right: 10px;
+  margin-left: 60px;
+}
+
+.hlth_cta1_flx .button_main button:hover a {
+  margin-right: 10px;
+  margin-left: 60px;
+}
+
+.hlth_cta1_flx .button_main button:hover .quote_text {
+  color: var(--text-color-dark);
+}
+
+.hlth_cta1_flx .button_main button:hover .arrow_right {
+  margin-right: 5px;
+}
+
+.hlth_cta1_flx .button_main button:hover .arrow_right i {
+  --icon-width: 50px;
+  right: calc(100% - var(--icon-width));
+  background: rgb(53, 137, 65);
+  background: linear-gradient(
+    67deg,
+    rgba(53, 137, 65, 0.9752275910364145) 10%,
+    rgba(76, 197, 94, 1) 90%
+  );
+  /* color: var(--text-color-white); */
+}
+
+.hlth_cta1_flx .button_main button .s0 {
+  fill: #000000;
+}
+
+.hlth_cta1_flx .button_main button:hover .s0 {
+  fill: #ffffff;
+}
+
+/*  */
+
+.hlth_cta1_flx .button_main button{
+  background: var(--text-color-white) !important;
+}
+
+.hlth_cta1_flx .button_main button a {
+color: #000;
+}
+
+.hlth_cta1_flx .button_main button a i {
+  background: rgba(76, 197, 94, 1);
+}
+
+.hlth_cta1_flx .material-symbols-outlined {
+  color: white;
+}
+
+/* Healthcare Feature */
+
+.mb_tp {
+  margin-top: 40px;
+}
+
+.hlth_app_fctur .tab_admn_sc .nav {
+  justify-content: space-between;
+}
+
+.hlth_app_fctur .tab_admn_sc .nav-pills .nav-link.active {
+  background: transparent var(--icon-width) 0% 0% no-repeat padding-box;
+  background: transparent var(--linear-gradient) 0% 0% no-repeat padding-box;
+  border: unset;
+}
+
+.hlth_app_fctur .tab_admn_sc .nav-link {
+  width: 32%;
+  border: 1px solid #aaa;
+  border-radius: 10px;
+  padding: 20px;
+}
+
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+  color: #fff;
+  background-color: #007bff;
+}
+
+.nav-pills .nav-link {
+  border-radius: .25rem;
+}
+
+.hlth_app_fctur .tab_admn_sc .nav-pills .nav-link.active p {
+  color: #fff;
+}
+
+.hlth_app_fctur .tab_admn_sc .nav-link p {
+  margin: 0px;
+  font-size: 23px;
+  color: #aaa;
+  font-weight: 600;
+}
+
+
+.hlth_app_fctur .tab-content {
+  padding-top: 65px;
+}
+
+.tab-content>.active {
+  display: block;
+}
+
+.tab-content>.tab-pane {
+  display: none;
+}
+
+.hlth_app_fctur .buty_solu_tab {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.hlth_app_fctur .buty_tab_lt {
+  width: 45%;
+}
+
+.hlth_app_fctur .buty_solu_ul {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  margin-bottom: 40px;
+  padding-left: 0;
+}
+
+.buty_solu_li:hover, .buty_solu_li.active {
+  background: transparent var(--linear-gradient) 0% 0% no-repeat padding-box;
+  color: #fff !important;
+}
+
+.hlth_app_fctur .buty_solu_li {
+  font-size: 24px;
+  padding: 15px 20px;
+  border-radius: 10px;
+  border: 1px solid #aaa;
+  color: #1a1a1a;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.hlth_app_fctur .buty_solu_li.active .solu_spn_bty {
+  rotate: 90deg;
+  background: #fff;
+  transition: ease-in-out .4s;
+}
+
+.hlth_app_fctur .solu_spn_bty {
+  background: transparent var(--linear-gradient) 0% 0% no-repeat padding-box;
+  width: 30px;
+  height: 30px;
+  padding: 9px 9px;
+  border-radius: 50%;
+  display: flex;
+}
+
+.hlth_app_fctur .buty_solu_li.active .solu_spn_bty svg path {
+  fill: #000;
+}
+
+.hlth_app_fctur .buty_solu_cnt {
+  transition: none;
+  margin-top: 10px;
+}
+
+p {
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+}
+
+svg{
+  width: 100%;
+}
+
+.hlth_app_fctur .tab_admn_sc .buty_tab_rt {
+  width: 48%;
+  position: sticky;
+  top: 40px;
+}
+
+.hlth_app_fctur .tab_admn_sc .buty_tab_rt figure {
+  width: 100%;
+}
+
+/*  */
+
+.hlth_app_fctur .button_main button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 55px;
+  background: rgb(53, 137, 65);
+  background: linear-gradient(
+    67deg,
+    rgba(53, 137, 65, 0.9752275910364145) 10%,
+    rgba(76, 197, 94, 1) 90%
+  );
+  color: #fff;
+  font-family: var(--primary-font);
+  padding: 0px 8px 0px 20px;
+  border-radius: 50px;
+  border-style: none;
+  font-size: 1.375rem;
+  font-weight: 500;
+  position: relative;
+  display: inline-block !important;
+}
+
+.hlth_app_fctur .button_main button .wrap {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--text-color-white);
+  text-decoration: none;
+  margin-right: 50px;
+  transition: all 0.5s;
+  font-weight: 400;
+  font-size: 1.25rem;
+}
+
+.hlth_app_fctur .button_main button a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--text-color-white);
+  text-decoration: none;
+  margin-right: 50px;
+  transition: all 0.5s;
+  font-weight: 400;
+  font-size: 1.25rem;
+}
+
+.hlth_app_fctur .button_main button .wrap i {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 42px;
+  width: 42px;
+  font-size: 1.5rem;
+  margin-left: 10px;
+  border-radius: 100%;
+  background: var(--text-color-white);
+  color: var(--text-color-dark);
+  position: absolute;
+  right: 5px;
+  top: 50%;
+  transform: translate(0, -50%);
+  transition: all 0.5s;
+}
+
+.hlth_app_fctur .button_main button a i {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 42px;
+  width: 42px;
+  font-size: 1.5rem;
+  margin-left: 10px;
+  border-radius: 100%;
+  background: var(--text-color-white);
+  color: var(--text-color-dark);
+  position: absolute;
+  right: 5px;
+  top: 50%;
+  transform: translate(0, -50%);
+  transition: all 0.5s;
+}
+
+.hlth_app_fctur .button_main button:hover {
+  background: #fff;
+  color: var(--text-color-dark);
+  padding: 0px 20px 0px 0px;
+  box-shadow: 1px 0px 10px rgba(0, 0, 0, 0.2);
+}
+
+.hlth_app_fctur .button_main .shadow_none:hover {
+  box-shadow: none;
+}
+
+.hlth_app_fctur .button_main button:hover .wrap {
+  margin-right: 10px;
+  margin-left: 60px;
+}
+
+.hlth_app_fctur .button_main button:hover a {
+  margin-right: 10px;
+  margin-left: 60px;
+}
+
+.hlth_app_fctur .button_main button:hover .quote_text {
+  color: var(--text-color-dark);
+}
+
+.hlth_app_fctur .button_main button:hover .arrow_right {
+  margin-right: 5px;
+}
+
+.hlth_app_fctur .button_main button:hover .arrow_right i {
+  --icon-width: 50px;
+  right: calc(100% - var(--icon-width));
+  background: rgb(53, 137, 65);
+  background: linear-gradient(
+    67deg,
+    rgba(53, 137, 65, 0.9752275910364145) 10%,
+    rgba(76, 197, 94, 1) 90%
+  );
+  /* color: var(--text-color-white); */
+}
+
+.hlth_app_fctur .button_main button .s0 {
+  fill: #000000;
+}
+
+.hlth_app_fctur .button_main button:hover .s0 {
+  fill: #ffffff;
+}
+
+
+/* Healthcare Cta2 */
+
+.hlth_bnft_cta {
+  padding: 110px 0 0;
+  overflow: hidden;
+}
+
+.hlth_bnft_flx {
+  background: var(--primary-color);
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  padding: 45px;
+  position: relative;
+}
+
+.hlth_bnft_flx::before {
+  background: #218621;
+  left: auto !important;
+  right: 20px;
+  top: 0;
+  border-radius: 0;
+  bottom: auto;
+  clip-path: circle(50% at 50% 0);
+  position: absolute;
+  content: "";
+  width: 100px;
+  height: 100px;
+}
+
+.hlth_bnft_lt {
+  width: 68%;
+}
+.hlth_bnft_lt h2 {
+  font-size: 36px;
+}
+
+.hlth_bnft_lt p {
+  margin-bottom: 30px;
+}
+
+.hlth_bnft_flx:after{
+  position: absolute;
+  content: "";
+  width: 100px;
+  height: 100px;
+  border-radius: 50px;
+  background: #218621;
+  left: 40%;
+  bottom: -50px;
+}
+
+.hlth_bnft_rt figure {
+  right: 10%;
+  position: absolute;
+  bottom: -14px;
+  width: 266px;
+  height: 413px;
+}
+
+/*  */
+
+.hlth_bnft_cta .button_main button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 55px;
+  background: rgb(53, 137, 65);
+  background: linear-gradient(
+    67deg,
+    rgba(53, 137, 65, 0.9752275910364145) 10%,
+    rgba(76, 197, 94, 1) 90%
+  );
+  color: #fff;
+  font-family: var(--primary-font);
+  padding: 0px 8px 0px 20px;
+  border-radius: 50px;
+  border-style: none;
+  font-size: 1.375rem;
+  font-weight: 500;
+  position: relative;
+  display: inline-block !important;
+}
+
+.hlth_bnft_cta .button_main button .wrap {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--text-color-white);
+  text-decoration: none;
+  margin-right: 50px;
+  transition: all 0.5s;
+  font-weight: 400;
+  font-size: 1.25rem;
+}
+
+.hlth_bnft_cta .button_main button a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--text-color-white);
+  text-decoration: none;
+  margin-right: 50px;
+  transition: all 0.5s;
+  font-weight: 400;
+  font-size: 1.25rem;
+}
+
+.hlth_bnft_cta .button_main button .wrap i {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 42px;
+  width: 42px;
+  font-size: 1.5rem;
+  margin-left: 10px;
+  border-radius: 100%;
+  background: var(--text-color-white);
+  color: var(--text-color-dark);
+  position: absolute;
+  right: 5px;
+  top: 50%;
+  transform: translate(0, -50%);
+  transition: all 0.5s;
+}
+
+.hlth_bnft_cta .button_main button a i {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 42px;
+  width: 42px;
+  font-size: 1.5rem;
+  margin-left: 10px;
+  border-radius: 100%;
+  background: var(--text-color-white);
+  color: var(--text-color-dark);
+  position: absolute;
+  right: 5px;
+  top: 50%;
+  transform: translate(0, -50%);
+  transition: all 0.5s;
+}
+
+.hlth_bnft_cta .button_main button:hover {
+  background: #fff;
+  color: var(--text-color-dark);
+  padding: 0px 20px 0px 0px;
+  box-shadow: 1px 0px 10px rgba(0, 0, 0, 0.2);
+}
+
+.hlth_bnft_cta .button_main .shadow_none:hover {
+  box-shadow: none;
+}
+
+.hlth_bnft_cta .button_main button:hover .wrap {
+  margin-right: 10px;
+  margin-left: 60px;
+}
+
+.hlth_bnft_cta .button_main button:hover a {
+  margin-right: 10px;
+  margin-left: 60px;
+}
+
+.hlth_bnft_cta .button_main button:hover .quote_text {
+  color: var(--text-color-dark);
+}
+
+.hlth_bnft_cta .button_main button:hover .arrow_right {
+  margin-right: 5px;
+}
+
+.hlth_bnft_cta .button_main button:hover .arrow_right i {
+  --icon-width: 50px;
+  right: calc(100% - var(--icon-width));
+  background: rgb(53, 137, 65);
+  background: linear-gradient(
+    67deg,
+    rgba(53, 137, 65, 0.9752275910364145) 10%,
+    rgba(76, 197, 94, 1) 90%
+  );
+  /* color: var(--text-color-white); */
+}
+
+.hlth_bnft_cta .button_main button .s0 {
+  fill: #000000;
+}
+
+.hlth_bnft_cta .button_main button:hover .s0 {
+  fill: #ffffff;
+}
+
+/*  */
+
+.hlth_bnft_cta .button_main button{
+  background: var(--text-color-white) !important;
+}
+
+.hlth_bnft_cta .button_main button a {
+color: #000;
+}
+
+.hlth_bnft_cta .button_main button a i {
+  background: rgba(76, 197, 94, 1);
+}
+
+.hlth_bnft_cta .material-symbols-outlined {
+  color: white;
+}
+
+/* Healthcare Why */
+
+.hlth_why_chs {
+  padding: 110px 0;
+}
+
+.text_center {
+  text-align: center;
+}
+
+.hlth_chs_flx {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 40px;
+  align-items: center;
+}
+
+.hlth_chs_lt {
+  width: 45%;
+}
+
+.hlth_chs_rt {
+  width: 50%;
+  padding-left: 0;
+}
+
+.hlth_chs_li {
+  padding: 20px 20px 20px 65px;
+  box-shadow: 0px 2px 56px rgba(0,0,0,.07);
+  border-radius: 10px;
+  margin-bottom: 15px;
+  position: relative;
+}
+
+.hlth_chs_li h3 {
+  font-size: 22px;
+  margin-bottom: 0;
+}
+
+.hlth_chs_li figure {
+  margin: 0;
+}
+
+.hlth_chs_li::after {
+  content: "";
+  position: absolute;
+  left: 20px;
+  top: 15px;
+  background: url("../img/prfd_chs.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 30px;
+  width: 30px;
+}
+
+.hlth_chs_li:last-child {
+  margin-bottom: 0px;
+}
+
+/* Healthcare Why */
+
+.hlth_glb_dvlp {
+  padding-top: 0;
+}
+
+.hlth_glb_flx {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.hlth_glb_lt.sb {
+  width: 46%;
+}
+
+.hlth_glb_lt.sb h2 {
+  margin-bottom: 20px;
+}
+
+.hlth_glb_rt {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 20px 0;
+  width: 47%;
+  padding-left: 0;
+}
+
+.hlth_glb_li {
+  background-color: var(--primary-color);
+  width: 48%;
+  border-radius: 12px;
+  text-align: center;
+  padding: 20px 25px;
+  min-height: 225px;
+}
+
+.hlth_glb_li:nth-child(2), .hlth_glb_li:nth-child(3) {
+  background-color: rgba(76, 197, 94, 1);
+}
+
+.hlth_glb_li h3 {
+  font-size: 55px;
+  color: #fff;
+  line-height: normal;
+}
+
+.hlth_glb_li p {
+  font-size: 20px;
+  color: #fff;
+}
+/*  */
+
+.hlth_glb_dvlp  .button_main button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 55px;
+  background: rgb(53, 137, 65);
+  background: linear-gradient(
+    67deg,
+    rgba(53, 137, 65, 0.9752275910364145) 10%,
+    rgba(76, 197, 94, 1) 90%
+  );
+  color: #fff;
+  font-family: var(--primary-font);
+  padding: 0px 8px 0px 20px;
+  border-radius: 50px;
+  border-style: none;
+  font-size: 1.375rem;
+  font-weight: 500;
+  position: relative;
+  display: inline-block !important;
+}
+
+.hlth_glb_dvlp  .button_main button .wrap {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--text-color-white);
+  text-decoration: none;
+  margin-right: 50px;
+  transition: all 0.5s;
+  font-weight: 400;
+  font-size: 1.25rem;
+}
+
+.hlth_glb_dvlp  .button_main button a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--text-color-white);
+  text-decoration: none;
+  margin-right: 50px;
+  transition: all 0.5s;
+  font-weight: 400;
+  font-size: 1.25rem;
+}
+
+.hlth_glb_dvlp  .button_main button .wrap i {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 42px;
+  width: 42px;
+  font-size: 1.5rem;
+  margin-left: 10px;
+  border-radius: 100%;
+  background: var(--text-color-white);
+  color: var(--text-color-dark);
+  position: absolute;
+  right: 5px;
+  top: 50%;
+  transform: translate(0, -50%);
+  transition: all 0.5s;
+}
+
+.hlth_glb_dvlp  .button_main button a i {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 42px;
+  width: 42px;
+  font-size: 1.5rem;
+  margin-left: 10px;
+  border-radius: 100%;
+  background: var(--text-color-white);
+  color: var(--text-color-dark);
+  position: absolute;
+  right: 5px;
+  top: 50%;
+  transform: translate(0, -50%);
+  transition: all 0.5s;
+}
+
+.hlth_glb_dvlp  .button_main button:hover {
+  background: #fff;
+  color: var(--text-color-dark);
+  padding: 0px 20px 0px 0px;
+  box-shadow: 1px 0px 10px rgba(0, 0, 0, 0.2);
+}
+
+.hlth_glb_dvlp  .button_main .shadow_none:hover {
+  box-shadow: none;
+}
+
+.hlth_glb_dvlp  .button_main button:hover .wrap {
+  margin-right: 10px;
+  margin-left: 60px;
+}
+
+.hlth_glb_dvlp  .button_main button:hover a {
+  margin-right: 10px;
+  margin-left: 60px;
+}
+
+.hlth_glb_dvlp  .button_main button:hover .quote_text {
+  color: var(--text-color-dark);
+}
+
+.hlth_glb_dvlp  .button_main button:hover .arrow_right {
+  margin-right: 5px;
+}
+
+.hlth_glb_dvlp  .button_main button:hover .arrow_right i {
+  --icon-width: 50px;
+  right: calc(100% - var(--icon-width));
+  background: rgb(53, 137, 65);
+  background: linear-gradient(
+    67deg,
+    rgba(53, 137, 65, 0.9752275910364145) 10%,
+    rgba(76, 197, 94, 1) 90%
+  );
+  /* color: var(--text-color-white); */
+}
+
+.hlth_glb_dvlp  .button_main button .s0 {
+  fill: #000000;
+}
+
+.hlth_glb_dvlp  .button_main button:hover .s0 {
+  fill: #ffffff;
+}
+
+
+/* Healthcare Excel */
+
+.app_excl_hlth {
+  padding-top: 100px;
+}
+
+.app_excl_flx {
+  margin: 70px 0px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 30px 0;
+}
+
+.app_excl_li {
+  width: 48.9%;
+  padding: 30px;
+  border-radius: 10px;
+  border-radius: 14px;
+  box-shadow: 20px 13px 20px rgba(112,112,112,.12);
+  border: 1px solid rgba(204,204,204,.18);
+  position: relative;
+  overflow: hidden;
+}
+
+.app_excl_li span {
+  font-size: 36px;
+  font-weight: 600;
+  color: var(--primary-color);
+  line-height: normal;
+  margin-bottom: 10px;
+  display: block;
+}
+
+.app_excl_li h3 {
+  font-size: 26px;
+}
+
+p:last-child {
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
+li.app_excl_li::after {
+  content: "";
+  position: absolute;
+  height: 50px;
+  width: 50px;
+  background: transparent var(--linear-gradient) 0% 0% no-repeat padding-box;
+  border-radius: 50%;
+  top: -23px;
+  right: 85px;
+}
+
+/*  */
+
+.app_excl_hlth  .button_main button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 55px;
+  background: rgb(53, 137, 65);
+  background: linear-gradient(
+    67deg,
+    rgba(53, 137, 65, 0.9752275910364145) 10%,
+    rgba(76, 197, 94, 1) 90%
+  );
+  color: #fff;
+  font-family: var(--primary-font);
+  padding: 0px 8px 0px 20px;
+  border-radius: 50px;
+  border-style: none;
+  font-size: 1.375rem;
+  font-weight: 500;
+  position: relative;
+  /* display: inline-block !important; */
+}
+
+.app_excl_hlth  .button_main button .wrap {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--text-color-white);
+  text-decoration: none;
+  margin-right: 50px;
+  transition: all 0.5s;
+  font-weight: 400;
+  font-size: 1.25rem;
+}
+
+.app_excl_hlth  .button_main button a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--text-color-white);
+  text-decoration: none;
+  margin-right: 50px;
+  transition: all 0.5s;
+  font-weight: 400;
+  font-size: 1.25rem;
+}
+
+.app_excl_hlth  .button_main button .wrap i {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 42px;
+  width: 42px;
+  font-size: 1.5rem;
+  margin-left: 10px;
+  border-radius: 100%;
+  background: var(--text-color-white);
+  color: var(--text-color-dark);
+  position: absolute;
+  right: 5px;
+  top: 50%;
+  transform: translate(0, -50%);
+  transition: all 0.5s;
+}
+
+.app_excl_hlth  .button_main button a i {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 42px;
+  width: 42px;
+  font-size: 1.5rem;
+  margin-left: 10px;
+  border-radius: 100%;
+  background: var(--text-color-white);
+  color: var(--text-color-dark);
+  position: absolute;
+  right: 5px;
+  top: 50%;
+  transform: translate(0, -50%);
+  transition: all 0.5s;
+}
+
+.app_excl_hlth  .button_main button:hover {
+  background: #fff;
+  color: var(--text-color-dark);
+  padding: 0px 20px 0px 0px;
+  box-shadow: 1px 0px 10px rgba(0, 0, 0, 0.2);
+}
+
+.app_excl_hlth  .button_main .shadow_none:hover {
+  box-shadow: none;
+}
+
+.app_excl_hlth  .button_main button:hover .wrap {
+  margin-right: 10px;
+  margin-left: 60px;
+}
+
+.app_excl_hlth  .button_main button:hover a {
+  margin-right: 10px;
+  margin-left: 60px;
+}
+
+.app_excl_hlth  .button_main button:hover .quote_text {
+  color: var(--text-color-dark);
+}
+
+.app_excl_hlth  .button_main button:hover .arrow_right {
+  margin-right: 5px;
+}
+
+.app_excl_hlth  .button_main button:hover .arrow_right i {
+  --icon-width: 50px;
+  right: calc(100% - var(--icon-width));
+  background: rgb(53, 137, 65);
+  background: linear-gradient(
+    67deg,
+    rgba(53, 137, 65, 0.9752275910364145) 10%,
+    rgba(76, 197, 94, 1) 90%
+  );
+  /* color: var(--text-color-white); */
+}
+
+.app_excl_hlth  .button_main button .s0 {
+  fill: #000000;
+}
+
+.app_excl_hlth  .button_main button:hover .s0 {
+  fill: #ffffff;
+}
+
+/* Healthcare Process */
+
+.hlth_procs_sec {
+  padding-top: 60px;
+}
+
+.hlth_procs_sec .buty_saln_mn {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 100px;
+  position: relative;
+}
+
+.hlth_procs_sec .buty_saln_mn::before {
+  content: "1";
+  position: absolute;
+  left: 0;
+  top: 40px;
+  background-color: var(--primary-color);
+  height: 44px;
+  width: 44px;
+  border-radius: 50%;
+  font-size: 22px;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 600;
+  right: 0;
+  bottom: 0;
+  margin: 0 auto;
+  z-index: 0;
+}
+
+.hlth_procs_sec .buty_saln_lt {
+  width: 45%;
+  text-align: end;
+  position: relative;
+}
+
+.hlth_procs_sec  .buty_saln_lt::after {
+  content: "";
+  position: absolute;
+  top: -36px;
+  right: -79px;
+  background: url("../img/hlth_prsc_bg.png");
+  width: 270px;
+  height: 200px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  z-index: -1;
+}
+
+.hlth_procs_sec .buty_saln_rt {
+  width: 45%;
+}
+
+.hlth_procs_sec .buty_saln_ul{
+  padding-left: 0;
+}
+
+.hlth_procs_sec .buty_saln_li {
+  font-size: 18px;
+  color: #000;
+  margin-bottom: 10px;
+  font-weight: 600;
+  position: relative;
+  padding-left: 30px;
+}
+
+.hlth_procs_sec .buty_saln_li::before {
+  content: "";
+  position: absolute;
+  left: 6px;
+  top: 13px;
+  height: 100%;
+  border: 1px dashed #d9d9d9;
+}
+
+.hlth_procs_sec .buty_saln_li::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 5px;
+  border: 2px solid var(--primary-color);
+  height: 15px;
+  width: 15px;
+  border-radius: 50%;
+  background-color: #fff;
+}
+
+.hlth_procs_sec .buty_saln_mn:nth-child(even) {
+  flex-direction: row-reverse;
+}
+
+.buty_saln_mn:nth-child(2)::before {
+  content: "2";
+}
+
+.buty_saln_mn:nth-child(3)::before {
+  content: "3";
+}
+
+.buty_saln_mn:nth-child(4)::before {
+  content: "4";
+}
+
+.buty_saln_mn:nth-child(5)::before {
+  content: "5";
+}
+
+.buty_saln_mn:nth-child(6)::before {
+  content: "6";
+}
+
+.buty_saln_mn:nth-child(even) .buty_saln_lt::after {
+  top: -31px;
+  left: -74px;
+  background: url("../img/section_lines.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  rotate: 180deg;
+}
+
+.hlth_procs_sec .buty_saln_mn:nth-child(even) .buty_saln_lt {
+  text-align: left;
+}
+
+.hlth_procs_sec .buty_saln_mn:nth-child(even) .buty_saln_ul {
+  max-width: 230px;
+  margin-left: auto;
+}
+
+.hlth_procs_sec .buty_saln_li:last-child:before {
+  display: none;
+}
+
+/*  */
+
+.hlth_procs_sec button {
+  margin: 80px auto 0;
+}
+
+.hlth_procs_sec  .button_main button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 55px;
+  background: rgb(53, 137, 65);
+  background: linear-gradient(
+    67deg,
+    rgba(53, 137, 65, 0.9752275910364145) 10%,
+    rgba(76, 197, 94, 1) 90%
+  );
+  color: #fff;
+  font-family: var(--primary-font);
+  padding: 0px 8px 0px 20px;
+  border-radius: 50px;
+  border-style: none;
+  font-size: 1.375rem;
+  font-weight: 500;
+  position: relative;
+  /* display: inline-block !important; */
+}
+
+.hlth_procs_sec  .button_main button .wrap {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--text-color-white);
+  text-decoration: none;
+  margin-right: 50px;
+  transition: all 0.5s;
+  font-weight: 400;
+  font-size: 1.25rem;
+}
+
+.hlth_procs_sec  .button_main button a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--text-color-white);
+  text-decoration: none;
+  margin-right: 50px;
+  transition: all 0.5s;
+  font-weight: 400;
+  font-size: 1.25rem;
+}
+
+.hlth_procs_sec  .button_main button .wrap i {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 42px;
+  width: 42px;
+  font-size: 1.5rem;
+  margin-left: 10px;
+  border-radius: 100%;
+  background: var(--text-color-white);
+  color: var(--text-color-dark);
+  position: absolute;
+  right: 5px;
+  top: 50%;
+  transform: translate(0, -50%);
+  transition: all 0.5s;
+}
+
+.hlth_procs_sec  .button_main button a i {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 42px;
+  width: 42px;
+  font-size: 1.5rem;
+  margin-left: 10px;
+  border-radius: 100%;
+  background: var(--text-color-white);
+  color: var(--text-color-dark);
+  position: absolute;
+  right: 5px;
+  top: 50%;
+  transform: translate(0, -50%);
+  transition: all 0.5s;
+}
+
+.hlth_procs_sec  .button_main button:hover {
+  background: #fff;
+  color: var(--text-color-dark);
+  padding: 0px 20px 0px 0px;
+  box-shadow: 1px 0px 10px rgba(0, 0, 0, 0.2);
+}
+
+.hlth_procs_sec  .button_main .shadow_none:hover {
+  box-shadow: none;
+}
+
+.hlth_procs_sec  .button_main button:hover .wrap {
+  margin-right: 10px;
+  margin-left: 60px;
+}
+
+.hlth_procs_sec  .button_main button:hover a {
+  margin-right: 10px;
+  margin-left: 60px;
+}
+
+.hlth_procs_sec  .button_main button:hover .quote_text {
+  color: var(--text-color-dark);
+}
+
+.hlth_procs_sec  .button_main button:hover .arrow_right {
+  margin-right: 5px;
+}
+
+.hlth_procs_sec  .button_main button:hover .arrow_right i {
+  --icon-width: 50px;
+  right: calc(100% - var(--icon-width));
+  background: rgb(53, 137, 65);
+  background: linear-gradient(
+    67deg,
+    rgba(53, 137, 65, 0.9752275910364145) 10%,
+    rgba(76, 197, 94, 1) 90%
+  );
+  /* color: var(--text-color-white); */
+}
+
+.hlth_procs_sec  .button_main button .s0 {
+  fill: #000000;
+}
+
+.hlth_procs_sec  .button_main button:hover .s0 {
+  fill: #ffffff;
+}
+
+/* Healthcare Cta3 */
+
+.cta3{
+  padding-bottom: 20px;
+}
+
+.cta3 .hlth_bnft_flx::before, .hlth_bnft_flx::after  {
+ display: none;
+}
+
+.cta3 .hlth_bnft_rt figure {
+  right: 10%;
+  position: absolute;
+  bottom: -92px;
+  width: 266px;
+  height: 413px;
+}
+
+
